@@ -2,7 +2,7 @@ name: Api build
 
 on:
   push:
-    branches-ignore: [$default-branch]
+    branches: [ $default-branch ]
 
 env:
   DAY_OF_WEEK: Monday
