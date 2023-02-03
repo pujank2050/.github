@@ -31,5 +31,3 @@ jobs:
       run: echo $default-branch
     - name: Build docker file for production
       uses: ./.github/actions
-      with:
-        APPLE: "production"
