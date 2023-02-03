@@ -29,6 +29,6 @@ jobs:
     - name: Send greeting
       run: echo $default-branch
     - name: Build docker file for production
-      uses: ./test.yml
+      uses: ./github/actions/test.yml
       with:
         APPLE: "production"
