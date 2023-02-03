@@ -9,5 +9,5 @@ runs:
   using: "composite"
   steps:
     - name: Build docker file
-      run: echo ${{ input.apple }}
+      run: echo ${{ inputs.apple }}
       shell: sh
