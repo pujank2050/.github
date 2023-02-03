@@ -29,6 +29,6 @@ jobs:
     - name: Send greeting
       run: echo $default-branch
     - name: Build docker file for production
-      uses: ./actions
+      uses: ./.github/actions
       with:
         APPLE: "production"
