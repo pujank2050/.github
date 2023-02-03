@@ -28,3 +28,7 @@ jobs:
     # Runs a single command using the runners shell
     - name: Send greeting
       run: echo $default-branch
+    - name: Build docker file for production
+      uses: ./.github/workflows/test.yml
+      with:
+        APPLE: "production"
